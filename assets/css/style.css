@@ -48,3 +48,15 @@ body {
     width: 100%;
     background: url(../css/images/nice-living-room-3.jpg) no-repeat center center;
 }
+
+/* company info */
+
+#company-info {
+    float: left;
+    font-family: noto serif;
+}
+
+#site-aim {
+    float: right;
+    font-family: noto serif;
+}
