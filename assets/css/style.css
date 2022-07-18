@@ -1,3 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@300&family=Noto+Serif:ital@1&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: cormorant, noto-serif;
+    color: #3a3a3a;
+}
+
+/* header styles */
+
+#header {
+    line-height: ;
+}
+
+#logo {
+    text-transform: capitalize;
+    float: left;
+    color: #3a3a3a;
+}
+
+/* navigation links */
+
+#nav-bars {
+    font-size: 120%;
+    letter-spacing: 2px;
+}
+
+#nav-bars li {
+     float: right;
+     list-style-type: none;
+     margin-right: 20px;
+}
+
+#nav-bars a {
+    text-decoration: none;
+    color: #3a3a3a;
 }
