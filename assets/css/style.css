@@ -46,7 +46,7 @@ body {
 #nice-living-room {
     height: 900px;
     width: 100%;
-    background: url(../css/images/nice-living-room-3.jpg) no-repeat center center;
+    background-image: url(../css/images/nice-living-room-3.jpg);
 }
 
 /* company info */
@@ -60,3 +60,19 @@ body {
     float: right;
     font-family: noto serif;
 }
+
+/* kitchen page styles */
+
+#nice-kitchen-1 {
+     height: 800px;
+     width: 100%;
+     background-image: url(../css/images/nice-kitchen-1.jpg);
+}
+
+/* bathroom page styles */
+
+#3-sub-img-bathroom {
+    
+}
+
+/* bedroom page styles */
