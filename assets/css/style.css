@@ -20,7 +20,7 @@ body {
 #logo {
     text-transform: capitalize;
     float: left;
-    color: #00ffff;
+    color: #fff;
 }
 
 /* navigation links */
@@ -38,15 +38,15 @@ body {
 
 #nav-bars a {
     text-decoration: none;
-    color: #00ffff;
+    color: #fff;
 }
 
 /* front page image */
 
-#nice-living-room {
+#nice-living-room-main-img {
     height: 900px;
     width: 100%;
-    background-image: url(../css/images/nice-living-room-3.jpg);
+    background-image: url(../css/images/nice-living-room-main-img.jpg);
     background-size: cover;
 }
 
@@ -71,12 +71,25 @@ body {
      background-size: cover;
 }
 
+#sub-img-kitchen {
+    clear: both;
+    line-height: 0;
+    column-count: 3;
+    column-gap: 0;
+}
+
+#sub-img-kitchen > img {
+    width: 100%;
+    box-sizing: border-box;
+    display: inline;
+}
+
 /* bathroom page styles */
 
 #nice-bathroom-main-img {
-    height: 600px;
+    height: 900px;
     width: 100%;
-    background: url(../css/images/nice-bathroom-main-img.webp) no-repeat center center;
+    background: url(../css/images/nice-bathroom-main-img.jpg) no-repeat center center;
     background-size: cover;
 }
 
@@ -89,7 +102,6 @@ body {
 
 #sub-img-bathroom > img {
     width: 100%;
-    display: inline;
     box-sizing: border-box;
 }
 
