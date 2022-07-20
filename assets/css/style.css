@@ -91,17 +91,26 @@ body {
 
 /* kitchen text styles */
 
+#kitchen-descriptions {
+    
+}
+
 #text-1-kitchen {
     float: left;
+    text-align: center;
+    margin-left: 4%;
 }
 
 #text-2-kitchen {
     float: center;
-    margin-left: 50%;
+    margin-right: 23%;
+    text-align: center;
 }
 
 #text-3-kitchen {
     float: right;
+    margin-bottom: 50px;
+    text-align: center;
 }
 
 /* bathroom image styles */
