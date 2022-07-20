@@ -53,7 +53,7 @@ body {
     font-family: noto serif;
     list-style-type: none;
     margin-top: 700px;
-    margin-right: -200px;
+    margin-right: -270px;
     color: #fff;
 }
 
@@ -63,9 +63,10 @@ body {
     margin-top: 500px;
     margin-left: -150px;
     color: #fff;
+    text-align: center;
 }
 
-/* kitchen page styles */
+/* kitchen image styles */
 
 #nice-kitchen-main-img {
      height: 800px;
@@ -86,9 +87,24 @@ body {
     height: auto;
     width: 100%;
     box-sizing: border-box;
-}    
+}
 
-/* bathroom page styles */
+/* kitchen text styles */
+
+#text-1-kitchen {
+    float: left;
+}
+
+#text-2-kitchen {
+    float: center;
+    margin-left: 50%;
+}
+
+#text-3-kitchen {
+    float: right;
+}
+
+/* bathroom image styles */
 
 #nice-bathroom-main-img {
     height: 900px;
@@ -111,7 +127,22 @@ body {
     box-sizing: border-box;
 }
 
-/* bedroom page styles */
+/* bathroom text styles */
+
+#text-1-bathroom {
+    float: left;
+}
+
+#text-2-bathroom {
+    float: center;
+    margin-left: 50%;
+}
+
+#text-3-bathroom {
+    float: right;
+}
+
+/* bedroom image styles */
 
 #nice-bedroom-main-image > img {
     height: 600px;
@@ -129,5 +160,19 @@ body {
 #sub-img-bedroom > img {
     width: 100%;
     box-sizing: border-box;
+    float: right;
+}
+/* bedroom text styles */
+
+#text-1-bedroom {
+    float: left;
+}
+
+#text-2-bedroom {
+    float: center;
+    margin-left: 50%;
+}
+
+#text-3-bedroom {
     float: right;
 }
