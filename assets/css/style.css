@@ -98,7 +98,6 @@ body {
 }
 
 #sub-img-bathroom {
-    float: right;
     clear: both;
     line-height: 0;
     column-count: 3;
@@ -106,6 +105,8 @@ body {
 }
 
 #sub-img-bathroom > img {
+    float: right;
+    height: auto;
     width: 100%;
     box-sizing: border-box;
 }
