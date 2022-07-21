@@ -105,7 +105,7 @@ body {
 
 #text-3-kitchen {
     float: right;
-    margin-bottom: 50px;
+    margin-top: -90px;
     text-align: center;
 }
 
@@ -137,7 +137,7 @@ body {
 #text-1-bathroom {
     float: left;
     text-align: center;
-    margin-top: 10px;
+    margin-top: 15px;
     margin-left: 3%;
 }
 
@@ -151,6 +151,7 @@ body {
     float: right;
     text-align: center;
     margin-right: 3%;
+    margin-top: -85px;
 }
 
 /* bedroom image styles */
@@ -192,6 +193,7 @@ body {
     float: right;
     text-align: center;
     margin-right: 2%;
+    margin-top: -120px;
 }
 
 /* footer styles */
