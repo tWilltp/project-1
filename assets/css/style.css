@@ -91,10 +91,6 @@ body {
 
 /* kitchen text styles */
 
-#kitchen-descriptions {
-    
-}
-
 #text-1-kitchen {
     float: left;
     text-align: center;
@@ -140,15 +136,21 @@ body {
 
 #text-1-bathroom {
     float: left;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 3%;
 }
 
 #text-2-bathroom {
     float: center;
-    margin-left: 50%;
+    margin-right: 25%;
+    text-align: center;
 }
 
 #text-3-bathroom {
     float: right;
+    text-align: center;
+    margin-right: 3%;
 }
 
 /* bedroom image styles */
@@ -175,13 +177,19 @@ body {
 
 #text-1-bedroom {
     float: left;
+    text-align: center;
+    margin-left: 3%;
+    margin-top: 33px;
 }
 
 #text-2-bedroom {
     float: center;
-    margin-left: 50%;
+    margin-right: 27%;
+    text-align: center;
 }
 
 #text-3-bedroom {
     float: right;
+    text-align: center;
+    margin-right: 2%;
 }
