@@ -15,7 +15,7 @@
    - [User aim](#User-aim)
    - [Site structure](#Site-structure)
    - [Surface](#Surface)
-- [Features](#features)
+- [Features](#Features)
 - [Technology](#Technology)
 - [Testing](#Testing)
    - [Functionality Testing](#Functionality-Testing)
@@ -64,6 +64,14 @@ The site consists of four pages (each clearly denoted by the navigation bars) ea
 ---
 
 # Features
+
+## Navigation bars
+
+## Product description
+
+## Footer
+
+## Company information
 
 # Technology
 
