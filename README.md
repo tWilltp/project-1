@@ -11,6 +11,20 @@
 # Table of contents
 
 - [UX](#UX)
+   - [Site creator aim](#Site-creator-aim)
+   - [User aim](#User-aim)
+   - [Site structure](#Site-structure)
+   - [Surface](#Surface)
+- [Features](#features)
+- [Technology](#Technology)
+- [Testing](#Testing)
+   - [Functionality Testing](#Functionality-Testing)
+   - [Compatibility Testing](#Compatibility-Testing)
+   - [Performance Testing](#Performance-Testing)
+   - [Code Validation](#Code-Validation)
+   - [Development Issues](#Development-Issues)
+- [Deployment](#Deployment)
+- [Credits](#Credits)
 
 # UX
 
