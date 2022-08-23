@@ -46,6 +46,18 @@ The site consists of four pages (each clearly denoted by the navigation bars) ea
 
 ## Surface
 
+### colours
+
+* Background colour #fff
+* Link colour #3a3a3a
+* Font colour #3a3a3a
+
+### fonts
+
+
+
+### images
+
 # Features
 
 # Technology
