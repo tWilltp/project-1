@@ -31,3 +31,31 @@
 ## Aim of website
 
 The websites goal is to present different options of Kitchen, Bathroom and Bedroom to the user accompanied with a brief description of each option. The layout is designed to be as simplistic as possible, to allow an easy understanding of the site to the user and consolodate my initial education in HTML and CSS.
+
+## Site creator aim
+
+## User aim
+
+## Site structure
+
+## Surface
+
+# Features
+
+# Technology
+
+# Testing
+
+## Functionality Testing
+
+## Compatability Testing
+
+## Performance Testing
+
+## Code Validation
+
+## Development Issues
+
+# Deployment
+
+# Credits
