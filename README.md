@@ -67,11 +67,19 @@ The site consists of four pages (each clearly denoted by the navigation bars) ea
 
 ## Navigation bars
 
+The navigation bars are located at the top right hand corner of the screen and are coloured white to match the logo and stand out from the background images, all pages are navigatable from every other page and each navigation bar denotes exactly what the page refers to.
+
 ## Product description
+
+In every page except for the home page, a small image is shown that reperesents an option for the user and a brief description is given about that option.
 
 ## Footer
 
+the footer remains the same throughout all pages and it provides four external links for the user to visit. The links will send the user to a youtube page, a facebook page, an instagram page and a twitter page.
+
 ## Company information
+
+Located in the home page is the companies basic information containing the contact number, company name, where the company is based and the companies office hours.
 
 # Technology
 
