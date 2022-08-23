@@ -61,6 +61,8 @@ The site consists of four pages (each clearly denoted by the navigation bars) ea
 
 * Images were pulled from []()and are sited in [Credits](#Credits)
 
+---
+
 # Features
 
 # Technology
