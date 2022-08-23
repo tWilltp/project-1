@@ -42,7 +42,7 @@ The user should be able to navigate the site with great ease and understand the 
 
 ## Site structure
 
-The site consists of four pages (each clearly denoted by the navigation bars) each page follows the same basic structure, consisting of a main image to imediately grab the attention of the viewer while also giving an indication of what the page entails (a main image of a kitchen for the kitchen page etc) follwed by four sub images that act as an example for the option the user is allowed to choose from. A brief description outlines the various options benefits and differences. finally in the footer of each page there are links to external social media platforms.
+The site consists of four pages (each clearly denoted by the navigation bars) each page follows the same basic structure, consisting of a main image to imediately grab the attention of the viewer while also giving an indication of what the page entails (a main image of a kitchen for the kitchen page etc) follwed by four sub images that act as an example for the options the user is allowed to choose from. A brief description outlines the various options' benefits and differences. finally, in the footer of each page there are links to external social media platforms.
 
 ## Surface
 
