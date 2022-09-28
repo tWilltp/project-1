@@ -13,6 +13,14 @@ body {
 
 /* header styles */
 
+#header {
+    width: 100%;
+    height: 40px;
+    color: #3a3a3a;
+    position: fixed;
+    z-index: 2;
+}
+
 #logo {
     text-transform: capitalize;
     float: left;
@@ -30,6 +38,7 @@ body {
      float: right;
      list-style-type: none;
      margin-right: 20px;
+     margin-top: 5px;
 }
 
 #nav-bars a {
@@ -44,6 +53,7 @@ body {
     width: 100%;
     background-image: url(../css/images/nice-living-room-main-img.jpg);
     background-size: cover;
+    z-index: 1;
 }
 
 /* company info */
@@ -52,18 +62,20 @@ body {
     float: right;
     font-family: noto serif;
     list-style-type: none;
-    margin-top: 700px;
-    margin-right: -270px;
+    margin-top: 60%;
+    margin-right: 20%;
     color: #fff;
 }
 
 #site-aim {
     float: left;
     font-family: noto serif;
-    margin-top: 500px;
-    margin-left: -150px;
+    margin-top: 40%;
+    margin-left: 10%;
     color: #fff;
     text-align: center;
+    background-color: #3a3a3a;
+    opacity: .5;
 }
 
 /* kitchen image styles */
@@ -75,38 +87,66 @@ body {
      background-size: cover;
 }
 
-#sub-img-kitchen {
+.sub-img-kitchen {
     clear: both;
-    line-height: 0;
-    column-count: 3;
-    column-gap: 0;
+    margin: 30px;
 }
 
-#sub-img-kitchen > img {
-    float: right;
+#sub-img-kit-1 {
+    float: left;
     height: auto;
     width: 100%;
-    box-sizing: border-box;
+    margin: 30px;
+}
+
+#sub-img-kit-2 {
+    float: left;
+    height: auto;
+    width: 100%;
+    margin: 30px;
+}
+
+#sub-img-kit-3 {
+    float: left;
+    height: auto;
+    width: 100%;
+    margin: 30px;
 }
 
 /* kitchen text styles */
 
 #text-1-kitchen {
-    float: left;
+    font-size: larger;
+    float: right;
     text-align: center;
-    margin-left: 4%;
+    margin-right: 20%;
+    margin-top: -1200px;
 }
 
 #text-2-kitchen {
-    float: center;
-    margin-right: 23%;
+    font-size: larger;
+    float: right;
     text-align: center;
+    margin-right: 20%;
 }
 
 #text-3-kitchen {
+    font-size: larger;
     float: right;
-    margin-top: -90px;
     text-align: center;
+    margin-right: 20%;
+}
+
+.box-1 {
+    display: inline-block;
+}
+
+.box-1 {
+    display: inline-block;
+}
+
+.box-1 {
+    display: inline-block;
 }
 
 /* bathroom image styles */
@@ -118,40 +158,52 @@ body {
     background-size: cover;
 }
 
-#sub-img-bathroom {
+.sub-img-bathroom {
     clear: both;
-    line-height: 0;
-    column-count: 3;
-    column-gap: 0;
 }
 
-#sub-img-bathroom > img {
-    float: right;
+#sub-img-bat-1 {
+    float: left;
     height: auto;
     width: 100%;
-    box-sizing: border-box;
+    margin: 30px;
+}
+
+#sub-img-bat-2 {
+    float: left;
+    height: auto;
+    width: 100%;
+    margin: 30px;
+}
+
+#sub-img-bat-3 {
+    float: left;
+    height: auto;
+    width: 100%;
+    margin: 30px;
 }
 
 /* bathroom text styles */
 
 #text-1-bathroom {
-    float: left;
+    float: right;
     text-align: center;
-    margin-top: 15px;
-    margin-left: 3%;
+    margin-right: 20%;
+    font-size: larger;
 }
 
 #text-2-bathroom {
-    float: center;
-    margin-right: 25%;
+    float: right;
     text-align: center;
+    margin-right: 20%;
+    font-size: larger;
 }
 
 #text-3-bathroom {
     float: right;
     text-align: center;
-    margin-right: 3%;
-    margin-top: -85px;
+    margin-right: 20%;
+    font-size: larger;
 }
 
 /* bedroom image styles */
@@ -162,38 +214,49 @@ body {
     background-size: cover;
 }
 
-#sub-img-bedroom {
+.sub-img-bedroom {
     clear: both;
     line-height: 0;
     column-count: 3;
     column-gap: 0;
 }
 
-#sub-img-bedroom > img {
+#sub-img-bed-1 {
+    float: left;
+    height: auto;
     width: 100%;
-    box-sizing: border-box;
-    float: right;
+    margin: 30px;
 }
+
+#sub-img-bed-2 {
+    float: left;
+    height: auto;
+    width: 100%;
+    margin: 30px;
+}
+
+#sub-img-bed-3 {
+    float: left;
+    height: auto;
+    width: 100%;
+    margin: 30px;
+}
+
 /* bedroom text styles */
 
 #text-1-bedroom {
-    float: left;
+    float: right;
     text-align: center;
-    margin-left: 3%;
-    margin-top: 33px;
 }
 
 #text-2-bedroom {
-    float: center;
-    margin-right: 27%;
+    float: right;
     text-align: center;
 }
 
 #text-3-bedroom {
     float: right;
     text-align: center;
-    margin-right: 2%;
-    margin-top: -120px;
 }
 
 /* footer styles */
