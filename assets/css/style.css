@@ -152,18 +152,6 @@ body {
     margin-top: 150px;
 }
 
-.box-1 {
-    display: inline-block;
-}
-
-.box-1 {
-    display: inline-block;
-}
-
-.box-1 {
-    display: inline-block;
-}
-
 /* bathroom image styles */
 
 #nice-bathroom-main-img {
@@ -329,4 +317,23 @@ footer {
     margin: 1%;
     padding: 5%;
     color: #3a3a3a;
+}
+
+/*maedia queries */
+
+@media screen and (max-width: 1200px) {
+    .sub-img-kitchen {
+        height: 127px;
+        width: 200px;
+    }
+
+    .sub-img-bathroom {
+        height: 127px;
+        width: 200px;
+    }
+
+    .sub-img-bedroom {
+        height: 127px;
+        width: 200px;
+    }
 }
