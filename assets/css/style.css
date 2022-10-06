@@ -27,6 +27,18 @@ body {
     color: #fff;
 }
 
+#kitchen-header {
+    text-decoration: underline;
+}
+
+#bathroom-header {
+    text-decoration: underline;
+}
+
+#bedroom-header {
+    text-decoration: underline;
+}
+
 /* navigation links */
 
 #nav-bars {
