@@ -151,32 +151,32 @@ h4 {
 #text-1-kitchen {
     font-size: larger;
     float: right;
-    text-align: center;
-    margin-right: 10%;
+    text-align: left;
+    margin-right: 1%;
     margin-top: -1200px;
 }
 
 #text-2-kitchen {
     font-size: larger;
     float: right;
-    text-align: center;
-    margin-right: 10%;
+    text-align: left;
+    margin-right: 1%;
     margin-top: -750px;
 }
 
 #text-3-kitchen {
     font-size: larger;
     float: right;
-    text-align: center;
-    margin-right: 10%;
+    text-align: left;
+    margin-right: 1%;
     margin-top: -300px;
 }
 
 #text-4-kitchen {
     font-size: larger;
     float: right;
-    text-align: center;
-    margin-right: 10%;
+    text-align: left;
+    margin-right: 1%;
     margin-top: 150px;
 }
 
@@ -226,32 +226,32 @@ h4 {
 #text-1-bathroom {
     font-size: larger;
     float: right;
-    text-align: center;
-    margin-right: 10%;
+    text-align: left;
+    margin-right: 1%;
     margin-top: -1650px;
 }
 
 #text-2-bathroom {
     font-size: larger;
     float: right;
-    text-align: center;
-    margin-right: 10%;
+    text-align: left;
+    margin-right: 1%;
     margin-top: -1200px;
 }
 
 #text-3-bathroom {
     font-size: larger;
     float: right;
-    text-align: center;
-    margin-right: 10%;
+    text-align: left;
+    margin-right: 1%;
     margin-top: -750px;
 }
 
 #text-4-bathroom {
     font-size: larger;
     float: right;
-    text-align: center;
-    margin-right: 10%;
+    text-align: left;
+    margin-right: 1%;
     margin-top: -300px;
 }
 
@@ -297,32 +297,32 @@ h4 {
 #text-1-bedroom {
     font-size: larger;
     float: right;
-    text-align: center;
-    margin-right: 10%;
+    text-align: left;
+    margin-right: 1%;
     margin-top: -1650px;
 }
 
 #text-2-bedroom {
     font-size: larger;
     float: right;
-    text-align: center;
-    margin-right: 10%;
+    text-align: left;
+    margin-right: 1%;
     margin-top: -1200px;
 }
 
 #text-3-bedroom {
     font-size: larger;
     float: right;
-    text-align: center;
-    margin-right: 10%;
+    text-align: left;
+    margin-right: 1%;
     margin-top: -750px;
 }
 
 #text-4-bedroom {
     font-size: larger;
     float: right;
-    text-align: center;
-    margin-right: 10%;
+    text-align: left;
+    margin-right: 1%;
     margin-top: -300px;
 }
 
@@ -342,13 +342,43 @@ footer {
 
 .social-networks i {
     font-size: 160%;
+    margin-bottom: auto;
     margin: 1%;
     padding: 5%;
     color: #3a3a3a;
 }
 
-/*maedia queries */
+/* media queries */
 
-@media screen and (max-width: 1200px) {
+/* for laptops, desktops */
+
+@media (min-width: 1025px) and (max-width: 1280px) {
   
+}
+
+/* for tablets, portrait */
+
+@media (min-width: 768px) and (max-width: 1024px) {
+ 
+   
+}
+
+/* for tablets, landscape */
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    
+
+
+}
+
+/* mobiles, landscape */
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+}
+
+/* mobiles, portrait */
+
+@media (min-width: 320px) and (max-width: 480px) {
+
 }
