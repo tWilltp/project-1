@@ -111,7 +111,7 @@ h4 {
 label, input, select {
 }
 
-/* kitchen image styles */
+/* kitchen styles */
 
 #nice-kitchen-main-img {
      height: 800px;
@@ -149,9 +149,7 @@ label, input, select {
     font-size: larger;
 }
 
-/* kitchen text styles */
-
-/* bathroom image styles */
+/* bathroom styles */
 
 #nice-bathroom-main-img {
     height: 900px;
@@ -189,9 +187,7 @@ label, input, select {
     font-size: larger;
 }
 
-/* bathroom text styles */
-
-/* bedroom image styles */
+/* bedroom styles */
 
 #nice-bedroom-main-img {
     height: 900px;
@@ -228,8 +224,6 @@ label, input, select {
     margin: 50px;
     font-size: larger;
 }
-
-/* bedroom text styles */
 
 /* footer styles */
 
@@ -269,23 +263,11 @@ footer {
    
 }
 
-/* for tablets, landscape */
-
-@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-    
-
-
-}
-
-/* mobiles, landscape */
-
-@media (min-width: 481px) and (max-width: 767px) {
-
-}
-
 /* mobiles, portrait */
 
 @media (min-width: 320px) and (max-width: 480px) {
+
+    /* kitchen styles */
     
     #nice-kitchen-main-img {
         height: 350px;
@@ -313,6 +295,81 @@ footer {
     }
 
     #sub-img-kit-4 {
+        float: left;
+        margin: 10px;
+        font-size: larger;
+    }
+
+    /* bathroom styles */
+
+    #nice-bathroom-main-img {
+        height: 900px;
+        width: 100%;
+        background: url(../css/images/nice-bathroom-main-img.jpg) no-repeat center center;
+        background-size: cover;
+    }
+    
+    .sub-img-bathroom {
+        clear: both;
+        margin: 30px;
+    }
+    
+    #sub-img-bat-1 {
+        float: left;
+        margin: 10px;
+        font-size: larger;
+    }
+    
+    #sub-img-bat-2 {
+        float: left;
+        margin: 10px;
+        font-size: larger;
+    }
+    
+    #sub-img-bat-3 {
+        float: left;
+        margin: 10px;
+        font-size: larger;
+    }
+    
+    #sub-img-bat-4 {
+        float: left;
+        margin: 10px;
+        font-size: larger;
+    }
+
+    /* bedroom styles */
+
+    #nice-bedroom-main-img {
+        height: 900px;
+        width: 100%;
+        background: url(../css/images/nice-bedroom-main-img.jpg) no-repeat center center;
+        background-size: cover;
+    }
+    
+    .sub-img-bedroom {
+        clear: both;
+    }
+    
+    #sub-img-bed-1 {
+        float: left;
+        margin: 10px;
+        font-size: larger;
+    }
+    
+    #sub-img-bed-2 {
+        float: left;
+        margin: 10px;
+        font-size: larger;
+    }
+    
+    #sub-img-bed-3 {
+        float: left;
+        margin: 10px;
+        font-size: larger;
+    }
+    
+    #sub-img-bed-4 {
         float: left;
         margin: 10px;
         font-size: larger;
