@@ -108,9 +108,6 @@ h4 {
     padding: 20px;
 }
 
-label, input, select {
-}
-
 /* kitchen styles */
 
 #nice-kitchen-main-img {
@@ -253,6 +250,121 @@ footer {
 /* for laptops, desktops */
 
 @media (min-width: 1025px) and (max-width: 1280px) {
+
+    /* kitchen styles */
+
+    #nice-kitchen-main-img {
+        height: 800px;
+        width: 100%;
+        background-image: url(../css/images/nice-kitchen-main-img.jpg);
+        background-size: cover;
+    }
+
+    .sub-img-kitchen {
+       clear: both;
+       margin: 30px;
+    }
+
+    #sub-img-kit-1 {
+       float: left;
+       margin: 10px;
+       font-size: larger;
+    }
+
+    #sub-img-kit-2 {
+       float: left;
+       margin: 10px;
+       font-size: larger;
+    }
+
+    #sub-img-kit-3 {
+       float: left;
+       margin: 10px;
+       font-size: larger;
+    }
+
+    #sub-img-kit-4 {
+       float: left;
+       margin: 10px;
+       font-size: larger;
+    }
+
+    /* bathroom styles */
+
+    #nice-bathroom-main-img {
+       height: 900px;
+       width: 100%;
+       background: url(../css/images/nice-bathroom-main-img.jpg) no-repeat center center;
+       background-size: cover;
+    }
+
+    .sub-img-bathroom {
+       clear: both;
+       margin: 30px;
+    }
+
+    #sub-img-bat-1 {
+       float: left;
+       margin: 10px;
+       font-size: larger;
+    }
+
+    #sub-img-bat-2 {
+       float: left;
+       margin: 10px;
+       font-size: larger;
+    }
+
+    #sub-img-bat-3 {
+       float: left;
+       margin: 10px;
+       font-size: larger;
+    }
+
+    #sub-img-bat-4 {
+       float: left;
+       margin: 10px;
+       font-size: larger;
+    }
+
+    /* bedroom styles */
+
+    #nice-bedroom-main-img {
+       height: 900px;
+       width: 100%;
+       background: url(../css/images/nice-bedroom-main-img.jpg) no-repeat center center;
+       background-size: cover;
+    }
+
+    .sub-img-bedroom {
+       clear: both;
+       margin: 30px;
+    }
+
+    #sub-img-bed-1 {
+       float: left;
+       margin: 10px;
+       font-size: larger;
+    }
+
+    #sub-img-bed-2 {
+       float: left;
+       margin: 10px;
+       font-size: larger;
+    }
+
+    #sub-img-bed-3 {
+       float: left;
+       margin: 10px;
+       font-size: larger;
+    }
+
+    #sub-img-bed-4 {
+       float: left;
+       margin: 10px;
+       font-size: larger;
+    }
+
   
 }
 
@@ -260,6 +372,144 @@ footer {
 
 @media (min-width: 768px) and (max-width: 1024px) {
  
+    /* kitchen styles */
+    
+    #nice-kitchen-main-img {
+        height: 515px;
+        width: 775;
+        background-image: url(../css/images/nice-kitchen-main-img.jpg);
+        background-size: cover;
+   }
+
+    .sub-img-kitchen {
+        clear: both;
+        margin: 30px;
+   }
+    
+    #sub-img-kit-1 {
+        float: left;
+        margin: 10px;
+        font-size: larger;
+    }
+
+    #sub-img-kit-2 {
+        float: left;
+        margin: 10px;
+        font-size: larger;
+    }
+
+    #sub-img-kit-3 {
+        float: left;
+        margin: 10px;
+        font-size: larger;
+    }
+
+    #sub-img-kit-4 {
+        float: left;
+        margin: 10px;
+        font-size: larger;
+    }
+
+    /* bathroom styles */
+
+    #nice-bathroom-main-img {
+        height: 515px;
+        width: 775px;
+        background: url(../css/images/nice-bathroom-main-img.jpg) no-repeat center center;
+        background-size: cover;
+    }
+    
+    .sub-img-bathroom {
+        clear: both;
+        margin: 30px;
+    }
+    
+    #sub-img-bat-1 {
+        float: left;
+        margin: 10px;
+        font-size: larger;
+    }
+    
+    #sub-img-bat-2 {
+        float: left;
+        margin: 10px;
+        font-size: larger;
+    }
+    
+    #sub-img-bat-3 {
+        float: left;
+        margin: 10px;
+        font-size: larger;
+    }
+    
+    #sub-img-bat-4 {
+        float: left;
+        margin: 10px;
+        font-size: larger;
+    }
+
+    /* bedroom styles */
+
+    #nice-bedroom-main-img {
+        height: 515px;
+        width: 775px;
+        background: url(../css/images/nice-bedroom-main-img.jpg) no-repeat center center;
+        background-size: cover;
+    }
+    
+    .sub-img-bedroom {
+        clear: both;
+        margin: 30px;
+    }
+    
+    #sub-img-bed-1 {
+        float: left;
+        margin: 10px;
+        font-size: larger;
+    }
+    
+    #sub-img-bed-2 {
+        float: left;
+        margin: 10px;
+        font-size: larger;
+    }
+    
+    #sub-img-bed-3 {
+        float: left;
+        margin: 10px;
+        font-size: larger;
+    }
+    
+    #sub-img-bed-4 {
+        float: left;
+        margin: 10px;
+        font-size: larger;
+    }
+
+    /* footer styles */
+
+    footer {
+        height: 150px;
+        margin-bottom: 0px;
+    }
+
+    .social-networks {
+        text-align: center;
+        margin-bottom: 0px;
+    }
+
+    .social-networks > li {
+        display: inline;
+        margin-bottom: 0px;
+    }
+
+    .social-networks i {
+        font-size: 160%;
+        margin-bottom: 0px;
+        margin: 1%;
+        padding: 5%;
+        color: #3a3a3a;
+    }
    
 }
 
@@ -274,6 +524,11 @@ footer {
         width: 600;
         background-image: url(../css/images/nice-kitchen-main-img.jpg);
         background-size: cover;
+   }
+
+    .sub-img-kitchen {
+     clear: both;
+     margin: 30px;
    }
     
     #sub-img-kit-1 {
@@ -349,6 +604,7 @@ footer {
     
     .sub-img-bedroom {
         clear: both;
+        margin: 30px;
     }
     
     #sub-img-bed-1 {
