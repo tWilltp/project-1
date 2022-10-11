@@ -119,13 +119,6 @@ input {
 
 /* kitchen styles */
 
-#nice-kitchen-main-img {
-     height: 800px;
-     width: 100%;
-     background-image: url(../css/images/nice-kitchen-main-img.jpg);
-     background-size: cover;
-}
-
 .kitchen-options {
     clear: both;
     margin: 30px;
@@ -157,13 +150,6 @@ input {
 
 /* bathroom styles */
 
-#nice-bathroom-main-img {
-    height: 900px;
-    width: 100%;
-    background: url(../css/images/nice-bathroom-main-img.jpg) no-repeat center center;
-    background-size: cover;
-}
-
 .bathroom-options {
     clear: both;
     margin: 30px;
@@ -194,13 +180,6 @@ input {
 }
 
 /* bedroom styles */
-
-#nice-bedroom-main-img {
-    height: 900px;
-    width: 100%;
-    background: url(../css/images/nice-bedroom-main-img.jpg) no-repeat center center;
-    background-size: cover;
-}
 
 .bedroom-options {
     clear: both;
@@ -261,13 +240,6 @@ footer {
 
     /* kitchen styles */
 
-    #nice-kitchen-main-img {
-        height: 800px;
-        width: 100%;
-        background-image: url(../css/images/nice-kitchen-main-img.jpg);
-        background-size: cover;
-    }
-
     .kitchen-options {
         clear: both;
         margin: 30px;
@@ -299,13 +271,6 @@ footer {
 
     /* bathroom styles */
 
-    #nice-bathroom-main-img {
-       height: 900px;
-       width: 100%;
-       background: url(../css/images/nice-bathroom-main-img.jpg) no-repeat center center;
-       background-size: cover;
-    }
-
     .bathroom-options {
        clear: both;
        margin: 30px;
@@ -336,13 +301,6 @@ footer {
     }
 
     /* bedroom styles */
-
-    #nice-bedroom-main-img {
-       height: 900px;
-       width: 100%;
-       background: url(../css/images/nice-bedroom-main-img.jpg) no-repeat center center;
-       background-size: cover;
-    }
 
     .bedroom-options {
        clear: both;
@@ -402,13 +360,6 @@ footer {
 @media (min-width: 768px) and (max-width: 1024px) {
  
     /* kitchen styles */
-    
-    #nice-kitchen-main-img {
-        height: 515px;
-        width: 775;
-        background-image: url(../css/images/nice-kitchen-main-img.jpg);
-        background-size: cover;
-   }
 
     .kitchen-options {
         clear: both;
@@ -440,11 +391,6 @@ footer {
     }
 
     /* bathroom styles */
-
-    #nice-bathroom-main-img {
-        background: url(../css/images/nice-bathroom-main-img.jpg) no-repeat center center;
-        background-size: cover;
-    }
     
     .bathroom-options {
         clear: both;
@@ -476,11 +422,6 @@ footer {
     }
 
     /* bedroom styles */
-
-    #nice-bedroom-main-img {
-        background: url(../css/images/nice-bedroom-main-img.jpg) no-repeat center center;
-        background-size: cover;
-    }
     
     .bedroom-options {
         clear: both;
@@ -570,17 +511,10 @@ footer {
     }
 
     /* kitchen styles */
-    
-    #nice-kitchen-main-img {
-        height: 350px;
-        width: 600;
-        background-image: url(../css/images/nice-kitchen-main-img.jpg);
-        background-size: cover;
-   }
 
     .kitchen-options {
      clear: both;
-     margin: 30px;
+     margin-right: 100%;
    }
     
     #kit-opt-1 {
@@ -608,13 +542,6 @@ footer {
     }
 
     /* bathroom styles */
-
-    #nice-bathroom-main-img {
-        height: 900px;
-        width: 100%;
-        background: url(../css/images/nice-bathroom-main-img.jpg) no-repeat center center;
-        background-size: cover;
-    }
     
     .bathroom-options {
         clear: both;
@@ -646,13 +573,6 @@ footer {
     }
 
     /* bedroom styles */
-
-    #nice-bedroom-main-img {
-        height: 900px;
-        width: 100%;
-        background: url(../css/images/nice-bedroom-main-img.jpg) no-repeat center center;
-        background-size: cover;
-    }
     
     .bedroom-options {
         clear: both;
