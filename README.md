@@ -81,7 +81,35 @@ the footer remains the same throughout all pages and it provides four external l
 
 Located in the home page is the companies basic information containing the contact number, company name, where the company is based and the companies office hours.
 
-# Technology
+---
+
+# Technologies used
+
+## HTML 5
+
+* The programming language used to structure the websites pages.
+
+## CSS 3
+
+* The programming language used to style the websites pages.
+
+## Font Awesome
+
+* The site, that the icons used for the social media links, were taken from.
+
+## Google fonts
+
+* The site that the fonts for this website were taken from.
+
+## Git-hub
+
+* The software hosting platform I used for this project.
+
+## Git-pod
+
+* The development hosting platform I used for this Project.
+
+---
 
 # Testing
 
