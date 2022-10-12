@@ -11,6 +11,14 @@ body {
     color: #3a3a3a;
 }
 
+/* success page */
+
+#success {
+    float: center;
+    text-align: center;
+    font-size: x-large;
+}
+
 /* header styles */
 
 #header {
