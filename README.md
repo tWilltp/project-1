@@ -123,6 +123,24 @@ Located in the home page is the companies basic information containing the conta
 
 ## Development Issues
 
+---
+
 # Deployment
 
+The project was deployed on GitHub Pages. I used Gitpod as a development environment and also commited all of the changes to git version control system. I used the push command in Gitpod to save changes to GitHub.
+
+### The deployment process
+
+* Log into Git-hub and select my chosen repository to deploy.
+* Go to settings and select Git-hub pages on the left hand side of the page.
+* From the source select branch and then main branch.
+* Finally save and then the website was deployed.
+
+* "put link to website here"
+* "potentially put 'how to ru  locally' here aswell"
+
+---
+
 # Credits
+
+
