@@ -14,7 +14,6 @@ body {
 /* success page */
 
 #success {
-    float: center;
     text-align: center;
     font-size: x-large;
 }
@@ -375,25 +374,25 @@ footer {
    }
     
     #kit-opt-1 {
-        float: center;
+        float: left;
         margin: 10px;
         font-size: larger;
     }
 
     #kit-opt-2 {
-        float: center;
+        float: left;
         margin: 10px;
         font-size: larger;
     }
 
     #kit-opt-3 {
-        float: center;
+        float: left;
         margin: 10px;
         font-size: larger;
     }
 
     #kit-opt-4 {
-        float: center;
+        float: left;
         margin: 10px;
         font-size: larger;
     }
@@ -406,25 +405,25 @@ footer {
     }
     
     #bat-opt-1 {
-        float: center;
+        float: left;
         margin: 10px;
         font-size: larger;
     }
     
     #bat-opt-2 {
-        float: center;
+        float: left;
         margin: 10px;
         font-size: larger;
     }
     
     #bat-opt-3 {
-        float: center;
+        float: left;
         margin: 10px;
         font-size: larger;
     }
     
     #bat-opt-4 {
-        float: center;
+        float: left;
         margin: 10px;
         font-size: larger;
     }
@@ -437,25 +436,25 @@ footer {
     }
     
     #bed-opt-1 {
-        float: center;
+        float: left;
         margin: 10px;
         font-size: larger;
     }
     
     #bed-opt-2 {
-        float: center;
+        float: left;
         margin: 10px;
         font-size: larger;
     }
     
     #bed-opt-3 {
-        float: center;
+        float: left;
         margin: 10px;
         font-size: larger;
     }
     
     #bed-opt-4 {
-        float: center;
+        float: left;
         margin: 10px;
         font-size: larger;
     }

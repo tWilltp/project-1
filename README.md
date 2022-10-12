@@ -113,13 +113,18 @@ Located in the home page is the companies basic information containing the conta
 
 # Testing
 
-## Functionality Testing
-
-## Compatability Testing
-
-## Performance Testing
+* I used chrome developer tools throughout the project to test site responsivity.
+* I incorporated images and made sure they did not seem pixelated or stretched.
+* I coded all external links to open in seperate tabs when clicked.
+* I used media queries to ensure the site had a user friendly layout down to 481px wide.
+* I used semantic markup to structure HTML code.
+* The site has clear navigation for users to find information easily.
+* The site is presented with site-specific content.
 
 ## Code Validation
+
+* I ensured that the HTML code was validated using the w3c code validator
+* I ensured that the CSS code was validated using the jigsaw validator
 
 ## Development Issues
 
