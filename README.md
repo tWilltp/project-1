@@ -81,7 +81,35 @@ the footer remains the same throughout all pages and it provides four external l
 
 Located in the home page is the companies basic information containing the contact number, company name, where the company is based and the companies office hours.
 
-# Technology
+---
+
+# Technologies used
+
+## HTML 5
+
+* The programming language used to structure the websites pages.
+
+## CSS 3
+
+* The programming language used to style the websites pages.
+
+## Font Awesome
+
+* The site, that the icons used for the social media links, were taken from.
+
+## Google fonts
+
+* The site that the fonts for this website were taken from.
+
+## Git-hub
+
+* The software hosting platform I used for this project.
+
+## Git-pod
+
+* The development hosting platform I used for this Project.
+
+---
 
 # Testing
 
@@ -95,6 +123,24 @@ Located in the home page is the companies basic information containing the conta
 
 ## Development Issues
 
+---
+
 # Deployment
 
+The project was deployed on GitHub Pages. I used Gitpod as a development environment and also commited all of the changes to git version control system. I used the push command in Gitpod to save changes to GitHub.
+
+### The deployment process
+
+* Log into Git-hub and select my chosen repository to deploy.
+* Go to settings and select Git-hub pages on the left hand side of the page.
+* From the source select branch and then main branch.
+* Finally save and then the website was deployed.
+
+* "put link to website here"
+* "potentially put 'how to ru  locally' here aswell"
+
+---
+
 # Credits
+
+
