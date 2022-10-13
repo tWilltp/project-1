@@ -95,7 +95,7 @@ Located in the home page is the companies basic information containing the conta
 
 ## Font Awesome
 
-* The site, that the icons used for the social media links, were taken from.
+* The site that the icons used for the social media links, were taken from.
 
 ## Google fonts
 
@@ -123,8 +123,8 @@ Located in the home page is the companies basic information containing the conta
 
 ## Code Validation
 
-* I ensured that the HTML code was validated using the w3c code validator
-* I ensured that the CSS code was validated using the jigsaw validator
+* I ensured that the HTML code was validated using the [w3c code validator](https://validator.w3.org/)
+* I ensured that the CSS code was validated using the [jigsaw validator](https://jigsaw.w3.org/css-validator/)
 
 ## Development Issues
 
@@ -142,10 +142,21 @@ The project was deployed on GitHub Pages. I used Gitpod as a development environ
 * Finally save and then the website was deployed.
 
 * "put link to website here"
-* "potentially put 'how to ru  locally' here aswell"
+* "potentially put 'how to run  locally' here aswell"
 
 ---
 
 # Credits
+
+## images
+
+* Pexels is the site that the images were taken from
+
+## fonts
+
+* google fonts was used for the fonts on this project
+
+## icons
+
 
 
