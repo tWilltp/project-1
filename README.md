@@ -25,6 +25,7 @@
    - [Development Issues](#Development-Issues)
 - [Deployment](#Deployment)
 - [Credits](#Credits)
+- [Screenshots](#Screenshots)
 
 # UX
 
@@ -128,7 +129,9 @@ Located in the home page is the companies basic information containing the conta
 
 ## Development Issues
 
+* The first major development issue was with the styling between the text elements and image elements. After a talk with my mentor we came to a solution, which was to wrap each text option and image for that option in the same div, and style the options individually instead of styling the images and the text seperately.
 
+* The second major development issue was a merge bug. I tried to change some of the previous commits I made when updating my readme.md file because they weren't very descriptive, this caused the files to diverge. I incured several other problems while merging the file and re-trying the commit changes, until I took the advice of the code institute tutors to not try something so advanced for my first project which led me to abort the rebase and leave the files merged with the commits unchanged.
 
 ---
 
@@ -169,6 +172,14 @@ The project was deployed on GitHub Pages. I used Gitpod as a development environ
 
 ## Template
 
-* I used the code institute [student template](https://github.com/Code-Institute-Org/gitpod-full-template)
+* I used the code institute [student template](https://github.com/Code-Institute-Org/gitpod-full-template) for this project.
+
+## Code
+
+* For help with my code I used [W3 schools](https://www.w3schools.com/).
+
+---
+
+# Screenshots
 
 
