@@ -152,13 +152,23 @@ The project was deployed on GitHub Pages. I used Gitpod as a development environ
 
 ## images
 
-* Pexels is the site that the images were taken from
+* The Hero image for the kitchen, bathroom and bedroom pages were taken from [Pexels]()
+* The 1st, 2nd and 3rd options for the kitchen, bathroom and bedroom pages were also taken from [Pexels]()
+* The Hero image for the home page was taken from [1freewallpapers.com](https://1freewallpapers.com/)
+* The 4th image of the kitchen page was taken from [wonderfulengineering.com](https://wonderfulengineering.com/)
+* The 4th image of the bathroom page was taken from [victorianplumbing.co.uk](https://www.victorianplumbing.co.uk/?gclid=c77584c58c8215096c33e782444be7c6&gclsrc=3p.ds&msclkid=c77584c58c8215096c33e782444be7c6&utm_source=bing&utm_medium=cpc&utm_campaign=Main%20-%20Brandname%20%5BExact%5D&utm_term=www%20victoria%20plumbing%20co%20uk&utm_content=Victoria%20Plumbing.Co.UK%20%5BExact%5D)
+* The 4th image of the bedroom page was taken from [setaswall.com](https://www.whois.com/whois/setaswall.com)
 
 ## fonts
 
-* google fonts was used for the fonts on this project
+* [google fonts](https://fonts.google.com/) were used for the fonts on this project.
 
 ## icons
 
+* [font awesome](https://fontawesome.com/v4/icons/) is the site that the icons for the social media links were pulled from.
+
+## Template
+
+* I used the code institute [student template](https://github.com/Code-Institute-Org/gitpod-full-template)
 
 
