@@ -221,6 +221,8 @@ input {
 
 footer {
     height: 150px;
+    background-color: aqua;
+    clear: both;
 }
 
 .social-networks {
@@ -248,63 +250,64 @@ footer {
     /* kitchen styles */
 
     .kitchen-options {
+        float: left;
         clear: both;
         margin: 30px;
     }
 
     #kit-opt-1 {
-       float: left;
-       margin: 10px;
-       font-size: larger;
+        float: left;
+        margin: 10px;
+        font-size: larger;
     }
 
     #kit-opt-2 {
-       float: left;
-       margin: 10px;
-       font-size: larger;
+        float: left;
+        margin: 10px;
+        font-size: larger;
     }
 
     #kit-opt-3 {
-       float: left;
-       margin: 10px;
-       font-size: larger;
+        float: left;
+        margin: 10px;
+        font-size: larger;
     }
 
     #kit-opt-4 {
-       float: left;
-       margin: 10px;
-       font-size: larger;
+        float: left;
+        margin: 10px;
+        font-size: larger;
     }
 
     /* bathroom styles */
 
     .bathroom-options {
-       clear: both;
-       margin: 30px;
+        clear: both;
+        margin: 30px;
     }
 
     #bat-opt-1 {
-       float: left;
-       margin: 10px;
-       font-size: larger;
+        float: left;
+        margin: 10px;
+        font-size: larger;
     }
 
     #bat-opt-2 {
-       float: left;
-       margin: 10px;
-       font-size: larger;
+        float: left; 
+        margin: 10px;
+        font-size: larger;
     }
 
     #bat-opt-3 {
-       float: left;
-       margin: 10px;
-       font-size: larger;
+        float: left;
+        margin: 10px;
+        font-size: larger;
     }
 
     #bat-opt-4 {
-       float: left;
-       margin: 10px;
-       font-size: larger;
+        float: left;
+        margin: 10px;
+        font-size: larger;
     }
 
     /* bedroom styles */
@@ -342,6 +345,8 @@ footer {
 
     footer {
         height: 150px;
+        background-color: aqua;
+        clear: both;
     }
     
     .social-networks {
@@ -462,6 +467,7 @@ footer {
     /* footer styles */
 
     footer {
+        clear: both;
         height: 150px;
     }
 
