@@ -80,7 +80,7 @@ h4 {
 #nice-living-room-main-img {
     height: 900px;
     width: 100%;
-    background-image: url(../css/images/nice-living-room-main-img.jpg);
+    background-image: url(../images/nice-living-room-main-img.jpg);
     background-size: cover;
     z-index: 1;
 }
