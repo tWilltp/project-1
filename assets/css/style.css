@@ -9,6 +9,7 @@
 body {
     font-family: cormorant, noto-serif;
     color: #3a3a3a;
+    background-color: rgb(217, 151, 8);
 }
 
 /* success page */
@@ -124,6 +125,19 @@ input {
     border: 1px solid black;
 }
 
+/* descriptive text over the 2nd page */
+
+#page-overview {
+    float: center;
+    text-align: center;
+    font-size: larger;
+    font-weight: bold;
+    margin: 30px;
+    border-style: inset;
+    border-width: 10px;
+    border-color: #3a3a3a;
+}
+
 /* kitchen styles */
 
 .kitchen-options {
@@ -135,27 +149,48 @@ input {
     float: left;
     margin: 50px;
     font-size: larger;
+    border-style: inset;
+    border-width: 10px;
+    border-color: #3a3a3a;
+    text-align: center;
 }
 
 #kit-opt-2 {
     float: left;
     margin: 50px;
     font-size: larger;
+    border-style: inset;
+    border-width: 10px;
+    border-color: #3a3a3a;
+    text-align: center;
 }
 
 #kit-opt-3 {
     float: left;
     margin: 50px;
     font-size: larger;
+    border-style: inset;
+    border-width: 10px;
+    border-color: #3a3a3a;
+    text-align: center;
 }
 
 #kit-opt-4 {
     float: left;
     margin: 50px;
     font-size: larger;
+    border-style: inset;
+    border-width: 10px;
+    border-color: #3a3a3a;
+    text-align: center;
 }
 
 /* bathroom styles */
+
+#bathroom-header {
+    margin: 5px;
+    float: left;
+}
 
 .bathroom-options {
     clear: both;
@@ -166,24 +201,40 @@ input {
     float: left;
     margin: 50px;
     font-size: larger;
+    border-style: inset;
+    border-width: 10px;
+    border-color: #3a3a3a;
+    text-align: center;
 }
 
 #bat-opt-2 {
     float: left;
     margin: 50px;
     font-size: larger;
+    border-style: inset;
+    border-width: 10px;
+    border-color: #3a3a3a;
+    text-align: center;
 }
 
 #bat-opt-3 {
     float: left;
     margin: 50px;
     font-size: larger;
+    border-style: inset;
+    border-width: 10px;
+    border-color: #3a3a3a;
+    text-align: center;
 }
 
 #bat-opt-4 {
     float: left;
     margin: 50px;
     font-size: larger;
+    border-style: inset;
+    border-width: 10px;
+    border-color: #3a3a3a;
+    text-align: center;
 }
 
 /* bedroom styles */
@@ -197,24 +248,40 @@ input {
     float: left;
     margin: 50px;
     font-size: larger;
+    border-style: inset;
+    border-width: 10px;
+    border-color: #3a3a3a;
+    text-align: center;
 }
 
 #bed-opt-2 {
     float: left;
     margin: 50px;
     font-size: larger;
+    border-style: inset;
+    border-width: 10px;
+    border-color: #3a3a3a;
+    text-align: center;
 }
 
 #bed-opt-3 {
     float: left;
     margin: 50px;
     font-size: larger;
+    border-style: inset;
+    border-width: 10px;
+    border-color: #3a3a3a;
+    text-align: center;
 }
 
 #bed-opt-4 {
     float: left;
     margin: 50px;
     font-size: larger;
+    border-style: inset;
+    border-width: 10px;
+    border-color: #3a3a3a;
+    text-align: center;
 }
 
 /* footer styles */
@@ -281,6 +348,7 @@ footer {
     /* bathroom styles */
 
     .bathroom-options {
+        float: left;
         clear: both;
         margin: 30px;
     }
@@ -377,7 +445,7 @@ footer {
    }
     
     #kit-opt-1 {
-        float: left;
+        float: center;
         margin: 10px;
         font-size: larger;
     }
@@ -401,10 +469,11 @@ footer {
     }
 
     /* bathroom styles */
-    
+
     .bathroom-options {
         clear: both;
         margin: 30px;
+        margin-top: 100px;
     }
     
     #bat-opt-1 {
@@ -642,11 +711,11 @@ footer {
 
 /* smallest screen sizes */
 
-@media (max-width: 480px) {
+@media (max-width: 320px) and (max-width: 480px) {
     
     #header {
         width: 100%;
-        height: 80px;
+        height: 40px;
         background-color: #3a3a3a;
         position: fixed;
         z-index: 2;
@@ -654,12 +723,15 @@ footer {
     }
     
     #logo {
-        font-size: large;
-        padding: 5px;
+        text-transform: capitalize;
+        float: left;
+        color: #fff;
     }
 
+    /* kitchen styles */
+
     #nav-bars {
-        font-size: 95%;
+        font-size: 120%;
         letter-spacing: 2px;
         background-color: #3a3a3a;
     }
@@ -667,21 +739,34 @@ footer {
     #nav-bars li {
          float: right;
          list-style-type: none;
-         margin-right: 10px;
+         margin-right: 20px;
          margin-top: 5px;
     }
-
-    #nice-kitchen-main-img {
-        width: max-content;
+    
+    #nav-bars a {
+        text-decoration: none;
+        color: #fff;
     }
 
-    #nice-bathroom-main-img {
-        width: max-content;
+    footer {
+        clear: both;
+        height: 150px;
     }
 
-    #nice-bedroom-main-img {
-        width: max-content;
+    .social-networks {
+        text-align: center;
+    }
+
+    .social-networks > li {
+        display: inline;
+        margin-bottom: 0px;
+    }
+
+    .social-networks i {
+        font-size: 160%;
+        margin-bottom: 0px;
+        margin: 1%;
+        padding: 5%;
+        color: #3a3a3a;
     }
 }
-
-@media (max-width: 320px) and (max-width: 480px) {}
