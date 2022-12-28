@@ -68,7 +68,7 @@ h4 {
      float: right;
      list-style-type: none;
      margin-right: 20px;
-     margin-top: 5px;
+     margin-top: 10px;
 }
 
 #nav-bars a {
@@ -121,8 +121,42 @@ h4 {
 }
 
 input {
+    margin: 10px;
     padding: 5px;
     border: 1px solid black;
+    box-shadow: 0 0 15px 4px;
+    border-radius: 5px;
+    background-color: rgb(217, 151, 8);
+    font-family: cormorant, noto-serif;
+}
+
+#kit-opt {
+    margin: 5px;
+    border-radius: 15px;
+    background-color: rgb(217, 151, 8);
+    font-family: cormorant, noto-serif;
+}
+
+#bat-opt {
+    margin: 5px;
+    border-radius: 15px;
+    background-color: rgb(217, 151, 8);
+    font-family: cormorant, noto-serif;
+}
+
+#bed-opt {
+    margin: 5px;
+    border-radius: 15px;
+    background-color: rgb(217, 151, 8);
+    font-family: cormorant, noto-serif;
+}
+
+#submit {
+    margin: 5px;
+    border-radius: 15px;
+    background-color: rgb(217, 151, 8);
+    font-family: cormorant, noto-serif;
+    width: 50px;
 }
 
 /* descriptive text over the 2nd page */
@@ -316,6 +350,44 @@ footer {
 
 @media (min-width: 1025px) and (max-width: 1280px) {
 
+    /* header styles */
+
+    #header {
+        width: 100%;
+        height: 40px;
+        background-color: #3a3a3a;
+        position: fixed;
+        z-index: 2;
+    
+    }
+    
+    #logo {
+        text-transform: capitalize;
+        float: left;
+        color: #fff;
+        margin: 5px;
+    }
+
+    /* navigation links */
+
+    #nav-bars {
+        font-size: 120%;
+        letter-spacing: 2px;
+        background-color: #3a3a3a;
+    }
+
+    #nav-bars li {
+        float: right;
+        list-style-type: none;
+        margin-right: 20px;
+        margin-top: 10px;
+    }
+
+    #nav-bars a {
+        text-decoration: none;
+        color: #fff;
+    }
+    
     /* kitchen styles */
 
     .kitchen-options {
@@ -439,6 +511,40 @@ footer {
 /* for tablets, portrait */
 
 @media (min-width: 768px) and (max-width: 1024px) {
+
+    /* home page styles */
+
+    #header {
+        width: 100%;
+        height: 40px;
+        background-color: #3a3a3a;
+        position: fixed;
+        z-index: 2;
+    }
+        
+    #logo {
+        text-transform: capitalize;
+        float: left;
+        color: #fff;
+    }
+    
+    #nav-bars {
+        font-size: 120%;
+        letter-spacing: 2px;
+        background-color: #3a3a3a;
+    }
+        
+    #nav-bars li {
+        float: right;
+        list-style-type: none;
+        margin-right: 20px;
+        margin-top: 10px;
+    }
+        
+    #nav-bars a {
+        text-decoration: none;
+        color: #fff;
+    }
  
     /* kitchen styles */
 
@@ -579,6 +685,8 @@ footer {
         text-transform: capitalize;
         float: left;
         color: #fff;
+        font-size: large;
+        margin: 10px;
     }
 
     #nav-bars {
@@ -588,10 +696,10 @@ footer {
     }
     
     #nav-bars li {
-         float: right;
-         list-style-type: none;
-         margin-right: 20px;
-         margin-top: 5px;
+        float: right;
+        list-style-type: none;
+        margin-right: 5px;
+        margin-top: 10px;
     }
     
     #nav-bars a {
@@ -761,20 +869,21 @@ footer {
         float: left;
         color: #fff;
         font-size: large;
+        margin: 5px;
     }
 
     #nav-bars {
         font-size: 120%;
-        letter-spacing: 2px;
+        letter-spacing: 1px;
         background-color: #3a3a3a;
     }
     
     #nav-bars li {
-         float: right;
-         list-style-type: none;
-         margin-right: 20px;
-         margin-top: 5px;
-         font-size: large;
+        float: right;
+        list-style-type: none;
+        margin-right: 5px;
+        margin-top: 10px;
+        font-size: small;
     }
     
     #nav-bars a {
@@ -914,8 +1023,6 @@ footer {
     .social-networks i {
         font-size: 160%;
         margin-bottom: 0px;
-        margin: 1%;
-        padding: 5%;
         color: #3a3a3a;
     }
 }
