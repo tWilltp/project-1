@@ -39,15 +39,21 @@
         </nav>
      </header>
      <br><br><br><br>
+     <!-- form for the user to select their preffered options -->
     <div id="form">
+        <!-- descriptive text -->
         <h4>
             Please submit your contact information and preferred options here
         </h4>
+        <!-- form -->
         <form action="project-1/success.html" method="get">
+            <!-- first user input -->
             <label for="fullname">Please enter full name</label>
             <input type="text" id="fullname"><br>
+            <!-- second user input -->
             <label for="email">Please enter email</label>
             <input type="text" id="email"><br>
+            <!-- different kitchen options to select -->
             <select name="Kitchen Option" id="kit-opt">
                <option value="0">Select Kitchen</option>
                <option value="1">Kitchen 1</option>
@@ -55,6 +61,7 @@
                <option value="3">Kitchen 3</option>
                <option value="4">Kitchen 4</option>
             </select><br>
+            <!-- different bathroom options to select -->
             <select name="Bathroom Option" id="bat-opt">
                 <option value="0">Select Bathroom</option>
                <option value="1">Bathroom 1</option>
@@ -62,6 +69,7 @@
                <option value="3">Bathroom 3</option>
                <option value="4">Bathroom 4</option>
             </select><br>
+            <!-- different bedroom options to select -->
             <select name="Bedroom Option" id="bed-opt">
                 <option value="0">Select Bedroom</option>
                <option value="1">Bedroom 1</option>
@@ -69,6 +77,7 @@
                <option value="3">Bedroom 3</option>
                <option value="4">Bedroom 4</option>
             </select><br>
+            <!-- submit button -->
             <button id="submit">Submit</button>
         </form>
     </div>
