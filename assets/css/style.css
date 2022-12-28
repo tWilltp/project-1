@@ -89,23 +89,23 @@ h4 {
 /* company info */
 
 #company-info {
-    float: left;
+    background-color: #3a3a3a;
+    width: 100%;
+    height: 200px;
+}
+
+#contact-info {
+    float: right;
     font-family: noto serif;
     list-style-type: none;
-    margin-top: 40%;
-    margin-left: 10%;
     color: #fff;
-    background-color: #3a3a3a;
 }
 
 #site-aim {
     float: left;
     font-family: noto serif;
-    margin-top: 20%;
-    margin-left: 10%;
     color: #fff;
     text-align: center;
-    background-color: #3a3a3a;
 }
 
 /* form styles */
@@ -128,17 +128,21 @@ input {
 /* descriptive text over the 2nd page */
 
 #page-overview {
-    float: center;
     text-align: center;
     font-size: larger;
     font-weight: bold;
-    margin: 30px;
+    margin: 5%;
+    margin-right: 5%;
     border-style: inset;
     border-width: 10px;
     border-color: #3a3a3a;
 }
 
 /* kitchen styles */
+
+#kitchen-header {
+    margin: 5px;
+}
 
 .kitchen-options {
     clear: both;
@@ -147,7 +151,7 @@ input {
 
 #kit-opt-1 {
     float: left;
-    margin: 50px;
+    margin: 5%;
     font-size: larger;
     border-style: inset;
     border-width: 10px;
@@ -157,7 +161,7 @@ input {
 
 #kit-opt-2 {
     float: left;
-    margin: 50px;
+    margin: 5%;
     font-size: larger;
     border-style: inset;
     border-width: 10px;
@@ -167,7 +171,7 @@ input {
 
 #kit-opt-3 {
     float: left;
-    margin: 50px;
+    margin: 5%;
     font-size: larger;
     border-style: inset;
     border-width: 10px;
@@ -177,7 +181,7 @@ input {
 
 #kit-opt-4 {
     float: left;
-    margin: 50px;
+    margin: 5%;
     font-size: larger;
     border-style: inset;
     border-width: 10px;
@@ -189,7 +193,6 @@ input {
 
 #bathroom-header {
     margin: 5px;
-    float: left;
 }
 
 .bathroom-options {
@@ -199,7 +202,7 @@ input {
 
 #bat-opt-1 {
     float: left;
-    margin: 50px;
+    margin: 5%;
     font-size: larger;
     border-style: inset;
     border-width: 10px;
@@ -209,7 +212,7 @@ input {
 
 #bat-opt-2 {
     float: left;
-    margin: 50px;
+    margin: 5%;
     font-size: larger;
     border-style: inset;
     border-width: 10px;
@@ -219,7 +222,7 @@ input {
 
 #bat-opt-3 {
     float: left;
-    margin: 50px;
+    margin: 5%;
     font-size: larger;
     border-style: inset;
     border-width: 10px;
@@ -229,7 +232,7 @@ input {
 
 #bat-opt-4 {
     float: left;
-    margin: 50px;
+    margin: 5%;
     font-size: larger;
     border-style: inset;
     border-width: 10px;
@@ -246,7 +249,7 @@ input {
 
 #bed-opt-1 {
     float: left;
-    margin: 50px;
+    margin: 5%;
     font-size: larger;
     border-style: inset;
     border-width: 10px;
@@ -256,7 +259,7 @@ input {
 
 #bed-opt-2 {
     float: left;
-    margin: 50px;
+    margin: 5%;
     font-size: larger;
     border-style: inset;
     border-width: 10px;
@@ -266,7 +269,7 @@ input {
 
 #bed-opt-3 {
     float: left;
-    margin: 50px;
+    margin: 5%;
     font-size: larger;
     border-style: inset;
     border-width: 10px;
@@ -276,7 +279,7 @@ input {
 
 #bed-opt-4 {
     float: left;
-    margin: 50px;
+    margin: 5%;
     font-size: larger;
     border-style: inset;
     border-width: 10px;
@@ -573,12 +576,13 @@ footer {
     }
     
     #logo {
-        font-size: large;
-        padding: 5px;
+        text-transform: capitalize;
+        float: left;
+        color: #fff;
     }
 
     #nav-bars {
-        font-size: 100%;
+        font-size: 120%;
         letter-spacing: 2px;
         background-color: #3a3a3a;
     }
@@ -586,20 +590,50 @@ footer {
     #nav-bars li {
          float: right;
          list-style-type: none;
-         margin-right: 10px;
+         margin-right: 20px;
          margin-top: 5px;
+    }
+    
+    #nav-bars a {
+        text-decoration: none;
+        color: #fff;
+    }
+
+    /* compnay info */
+
+    #company-info {
+        background-color: #3a3a3a;
+        width: 100%;
+        height: 300px;
+    }
+    
+    #contact-info {
+        float: right;
+        font-family: noto serif;
+        list-style-type: none;
+        color: #fff;
+        margin: 5px;
+    }
+    
+    #site-aim {
+        float: left;
+        font-family: noto serif;
+        color: #fff;
+        text-align: center;
+        margin: 5px;
     }
 
     /* kitchen styles */
 
     .kitchen-options {
      clear: both;
-     margin-right: 100%;
+     
    }
     
     #kit-opt-1 {
         float: left;
         margin: 10px;
+        margin-right: 15px;
         font-size: larger;
     }
 
@@ -711,7 +745,7 @@ footer {
 
 /* smallest screen sizes */
 
-@media (max-width: 320px) and (max-width: 480px) {
+@media (min-width: 320px) and (max-width: 480px) {
     
     #header {
         width: 100%;
@@ -726,9 +760,8 @@ footer {
         text-transform: capitalize;
         float: left;
         color: #fff;
+        font-size: large;
     }
-
-    /* kitchen styles */
 
     #nav-bars {
         font-size: 120%;
@@ -741,12 +774,128 @@ footer {
          list-style-type: none;
          margin-right: 20px;
          margin-top: 5px;
+         font-size: large;
     }
     
     #nav-bars a {
         text-decoration: none;
         color: #fff;
     }
+
+     /* compnay info */
+
+     #company-info {
+        background-color: #3a3a3a;
+        width: 100%;
+        height: 350px;
+    }
+    
+    #contact-info {
+        float: right;
+        font-family: noto serif;
+        list-style-type: none;
+        color: #fff;
+    }
+    
+    #site-aim {
+        float: left;
+        font-family: noto serif;
+        color: #fff;
+        text-align: center;
+    }
+
+    /* kitchen styles */
+
+    .kitchen-options {
+        clear: both;
+      }
+       
+    #kit-opt-1 {
+        float: left;
+        margin: 10px;
+        margin-right: 15px;
+        font-size: larger;
+    }
+   
+    #kit-opt-2 {
+        float: left;
+        margin: 10px;
+        font-size: larger;
+    }
+   
+    #kit-opt-3 {
+        float: left;
+        margin: 10px;
+        font-size: larger;
+    }
+   
+    #kit-opt-4 {
+        float: left;
+        margin: 10px;
+        font-size: larger;
+    }
+   
+    /* bathroom styles */
+       
+    .bathroom-options {
+        clear: both;
+    }
+       
+    #bat-opt-1 {
+        float: left;
+        margin: 10px;
+        font-size: larger;
+    }
+       
+    #bat-opt-2 {
+        float: left;
+        margin: 10px;
+        font-size: larger;
+    }
+       
+    #bat-opt-3 {
+        float: left;
+        margin: 10px;
+        font-size: larger;
+    }
+       
+    #bat-opt-4 {
+        float: left;
+        margin: 10px;
+        font-size: larger;
+    }
+   
+    /* bedroom styles */
+       
+    .bedroom-options {
+        clear: both;
+    }
+       
+    #bed-opt-1 {
+        float: left;
+        margin: 10px;
+        font-size: larger;
+    }
+       
+    #bed-opt-2 {
+        float: left;
+        margin: 10px;
+        font-size: larger;
+    }
+       
+    #bed-opt-3 {
+        float: left;
+        margin: 10px;
+        font-size: larger;
+    }
+       
+    #bed-opt-4 {
+        float: left;
+        margin: 10px;
+        font-size: larger;
+    }
+
+    /* footer styles */
 
     footer {
         clear: both;
