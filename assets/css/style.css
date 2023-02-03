@@ -160,17 +160,17 @@ input {
     width: 50px;
 }
 
-/* descriptive text over the 2nd page */
+/* descriptive text over the renovations page */
 
 #page-overview {
     text-align: center;
     font-size: larger;
     font-weight: bold;
     margin: 5%;
-    margin-right: 5%;
     border-style: inset;
     border-width: 10px;
     border-color: #3a3a3a;
+    position: static;
 }
 
 /* kitchen styles */
@@ -736,6 +736,12 @@ footer {
         margin: 5px;
     }
 
+    /* renovations page title */
+
+    #page-overview {
+        width: min (90%, 1000px);
+    }
+
     /* kitchen styles */
 
     .kitchen-options {
@@ -746,7 +752,6 @@ footer {
     #kit-opt-1 {
         float: left;
         margin: 10px;
-        margin-right: 15px;
         font-size: larger;
     }
 
@@ -900,9 +905,9 @@ footer {
         color: #fff;
     }
 
-     /* compnay info */
+    /* compnay info */
 
-     #company-info {
+    #company-info {
         background-color: #3a3a3a;
         width: 100%;
         height: 350px;
@@ -922,95 +927,195 @@ footer {
         text-align: center;
     }
 
+    /* renovation page title */
+
+    #page-overview {
+        width: min (90%, 1000px);
+        margin-inline: auto;
+    }
+
     /* kitchen styles */
 
     .kitchen-options {
         clear: both;
-      }
+        margin: 5px;
+    }
+
+    #kitchen-header {
+        text-align: center;
+    }
+
+    #kit-p {
+        margin: 5px;
+    }
        
     #kit-opt-1 {
         float: left;
-        margin: 10px;
-        margin-right: 15px;
-        font-size: larger;
+        margin-inline: auto;
+        font-size: larger; 
+    }
+
+    #kit-img-1 {
+        width: 290px;
+        height: 180px;
     }
    
     #kit-opt-2 {
         float: left;
-        margin: 10px;
+        margin-inline: auto;
         font-size: larger;
+    }
+
+    #kit-img-2 {
+        width: 290px;
+        height: 180px;
     }
    
     #kit-opt-3 {
         float: left;
-        margin: 10px;
+        margin-inline: auto;
         font-size: larger;
+    }
+
+    #kit-img-3 {
+        width: 290px;
+        height: 180px;
     }
    
     #kit-opt-4 {
         float: left;
-        margin: 10px;
+        margin-inline: auto;
         font-size: larger;
+    }
+
+    #kit-img-4 {
+        width: 290px;
+        height: 180px;
     }
    
     /* bathroom styles */
        
     .bathroom-options {
         clear: both;
+        margin: 5px;
+    }
+
+    #bathroom-header {
+        text-align: center;
+    }
+
+    #bat-p {
+        margin: 5px;
     }
        
     #bat-opt-1 {
         float: left;
         margin: 10px;
+        margin-inline: auto;
         font-size: larger;
+    }
+
+    #bat-img-1 {
+        width: 290px;
+        height: 180px;
     }
        
     #bat-opt-2 {
         float: left;
         margin: 10px;
+        margin-inline: auto;
         font-size: larger;
+    }
+
+    #bat-img-2 {
+        width: 290px;
+        height: 180px;
     }
        
     #bat-opt-3 {
         float: left;
         margin: 10px;
+        margin-inline: auto;
         font-size: larger;
+    }
+
+    #bat-img-3 {
+        width: 290px;
+        height: 180px;
     }
        
     #bat-opt-4 {
         float: left;
         margin: 10px;
+        margin-inline: auto;
         font-size: larger;
+    }
+
+    #bat-img-4 {
+        width: 290px;
+        height: 180px;
     }
    
     /* bedroom styles */
        
     .bedroom-options {
         clear: both;
+        margin: 5px;
+    }
+
+    #bedroom-header {
+        text-align: center;
     }
        
     #bed-opt-1 {
         float: left;
         margin: 10px;
+        margin-inline: auto;
         font-size: larger;
+    }
+
+    #bat-p {
+        margin: 5px;
+    }
+
+    #bed-img-1 {
+        width: 290px;
+        height: 180px;
     }
        
     #bed-opt-2 {
         float: left;
         margin: 10px;
+        margin-inline: auto;
         font-size: larger;
+    }
+
+    #bed-img-2 {
+        width: 290px;
+        height: 180px;
     }
        
     #bed-opt-3 {
         float: left;
         margin: 10px;
+        margin-inline: auto;
         font-size: larger;
+    }
+
+    #bed-img-3 {
+        width: 290px;
+        height: 180px;
     }
        
     #bed-opt-4 {
         float: left;
-        margin: 10px;
+        margin-inline: auto;
         font-size: larger;
+    }
+
+    #bed-img-4 {
+        width: 290px;
+        height: 180px;
     }
 
     /* footer styles */
@@ -1018,6 +1123,7 @@ footer {
     footer {
         clear: both;
         height: 150px;
+        margin-inline: auto;
     }
 
     .social-networks {
@@ -1033,5 +1139,59 @@ footer {
         font-size: 160%;
         margin-bottom: 0px;
         color: #3a3a3a;
+    }
+
+    /* form styles */
+
+    #form {
+        background-color: #3a3a3a;
+        color: #fff;
+        padding: 20px;
+        background-size: cover;
+        margin: 20px;
+        margin-inline: auto;
+    }
+
+    h4 {
+        padding-bottom: 10px;
+    }
+
+    input {
+        margin: 10px;
+        padding: 5px;
+        border: 1px solid black;
+        box-shadow: 0 0 15px 4px;
+        border-radius: 5px;
+        background-color: rgb(217, 151, 8);
+        font-family: cormorant, noto-serif;
+    }
+
+    #kit-opt {
+        margin: 5px;
+        border-radius: 15px;
+        background-color: rgb(217, 151, 8);
+        font-family: cormorant, noto-serif;
+    }
+
+    #bat-opt {
+        margin: 5px;
+        border-radius: 15px;
+        background-color: rgb(217, 151, 8);
+        font-family: cormorant, noto-serif;
+    }
+
+    #bed-opt {
+        margin: 5px;
+        border-radius: 15px;
+        background-color: rgb(217, 151, 8);
+        font-family: cormorant, noto-serif;
+    }
+
+    #submit {
+        margin: 5px;
+        border-radius: 15px;
+        background-color: rgb(217, 151, 8);
+        font-family: cormorant, noto-serif;
+        width: 50px;
     }
 }
