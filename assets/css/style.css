@@ -557,7 +557,7 @@ footer {
    }
     
     #kit-opt-1 {
-        float: center;
+        float: left;
         margin: 10px;
         font-size: larger;
     }
@@ -734,12 +734,6 @@ footer {
         color: #fff;
         text-align: center;
         margin: 5px;
-    }
-
-    /* renovations page title */
-
-    #page-overview {
-        width: min (90%, 1000px);
     }
 
     /* kitchen styles */
@@ -930,8 +924,8 @@ footer {
     /* renovation page title */
 
     #page-overview {
-        width: min (90%, 1000px);
         margin-inline: auto;
+        margin: 5px;
     }
 
     /* kitchen styles */
@@ -944,15 +938,15 @@ footer {
     #kitchen-header {
         text-align: center;
     }
-
-    #kit-p {
-        margin: 5px;
-    }
        
     #kit-opt-1 {
         float: left;
         margin-inline: auto;
         font-size: larger; 
+    }
+
+    #kit-p-1 {
+        margin: 5px;
     }
 
     #kit-img-1 {
@@ -964,6 +958,10 @@ footer {
         float: left;
         margin-inline: auto;
         font-size: larger;
+    }
+
+    #kit-p-2 {
+        margin: 5px;
     }
 
     #kit-img-2 {
@@ -981,11 +979,19 @@ footer {
         width: 290px;
         height: 180px;
     }
+
+    #kit-p-3 {
+        margin: 5px;
+    }
    
     #kit-opt-4 {
         float: left;
         margin-inline: auto;
         font-size: larger;
+    }
+
+    #kit-p-4 {
+        margin: 5px;
     }
 
     #kit-img-4 {
@@ -1003,16 +1009,16 @@ footer {
     #bathroom-header {
         text-align: center;
     }
-
-    #bat-p {
-        margin: 5px;
-    }
        
     #bat-opt-1 {
         float: left;
         margin: 10px;
         margin-inline: auto;
         font-size: larger;
+    }
+
+    #bat-p-1 {
+        margin: 5px;
     }
 
     #bat-img-1 {
@@ -1027,6 +1033,10 @@ footer {
         font-size: larger;
     }
 
+    #bat-p-2 {
+        margin: 5px;
+    }
+
     #bat-img-2 {
         width: 290px;
         height: 180px;
@@ -1039,6 +1049,10 @@ footer {
         font-size: larger;
     }
 
+    #bat-p-3 {
+        margin: 5px;
+    }
+
     #bat-img-3 {
         width: 290px;
         height: 180px;
@@ -1049,6 +1063,10 @@ footer {
         margin: 10px;
         margin-inline: auto;
         font-size: larger;
+    }
+
+    #bat-p-4 {
+        margin: 5px;
     }
 
     #bat-img-4 {
@@ -1074,7 +1092,7 @@ footer {
         font-size: larger;
     }
 
-    #bat-p {
+    #bed-p-1 {
         margin: 5px;
     }
 
@@ -1090,6 +1108,10 @@ footer {
         font-size: larger;
     }
 
+    #bed-p-2 {
+        margin: 5px;
+    }
+
     #bed-img-2 {
         width: 290px;
         height: 180px;
@@ -1100,6 +1122,10 @@ footer {
         margin: 10px;
         margin-inline: auto;
         font-size: larger;
+    }
+
+    #bed-p-3 {
+        margin: 5px;
     }
 
     #bed-img-3 {
@@ -1113,6 +1139,10 @@ footer {
         font-size: larger;
     }
 
+    #bed-p-4 {
+        margin: 5px;
+    }
+
     #bed-img-4 {
         width: 290px;
         height: 180px;
@@ -1122,7 +1152,7 @@ footer {
 
     footer {
         clear: both;
-        height: 150px;
+        height: 100px;
         margin-inline: auto;
     }
 

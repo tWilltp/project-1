@@ -4,7 +4,7 @@
 
 * This website shows a basic example of a responsive and interactive website based around home renovation.
 * This project is designed as a training excersize, not for professional use or example.  
-[Project1 view](URL 'https://8000-twilltp-project1-0pfsjx8ugbx.ws-eu80.gitpod.io/index.html')
+[Project1 view](URL 'https://twilltp.github.io/project-1/index.html')
 
 ---
 
@@ -49,9 +49,11 @@ The site consists of three pages (each clearly denoted by the navigation bars) e
 
 ### colours
 
-* Background colour #fff
-* Link colour #3a3a3a
-* Font colour #3a3a3a
+* Background colour rgb(217, 151, 8)
+* Link colour #fff
+* Font colour home page #fff
+* Font colour renovations page #3a3a3a
+* Font colour form page #fff
 
 ### fonts
 
@@ -68,7 +70,7 @@ The site consists of three pages (each clearly denoted by the navigation bars) e
 
 ## Navigation bars
 
-The navigation bars are located at the top right hand corner of the screen and are coloured white to match the logo and stand out from the header background, all pages are navigatable from every other page and each navigation bar denotes exactly what the page refers to.
+The navigation bars are located at the top right hand corner of the screen and are coloured white to match the logo and stand out from the header background, all pages are navigatable from every other page and each navigation bar denotes exactly what the page refers to eg. home, renovations, form.
 
 ## Product description
 
