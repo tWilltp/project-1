@@ -177,5 +177,5 @@ The project was deployed on GitHub Pages. I used Gitpod as a development environ
 
 # Screenshots
 
-[Screenshot](../project-1/assets/css/images/2022-10-13.png)
+[Screenshot](https://ui.dev/amiresponsive?url=https://twilltp.github.io/project-1/index.html)
 
